@@ -15,7 +15,7 @@ dependencies:
   - pysal
   - nbconvert
   - numpy <= 1.24
-  - numba ==0.57
+  - numba == 0.57
   - networkx
   - scikit-learn
   - seaborn
