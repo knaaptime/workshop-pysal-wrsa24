@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python ==3.10
+  - python ==3.11
   - mamba
   - bokeh
   - pip
@@ -14,7 +14,8 @@ dependencies:
   - jupyterlab
   - pysal
   - nbconvert
-  - numba=0.57
+  - numpy <= 1.24
+  - numba ==0.57
   - networkx
   - scikit-learn
   - seaborn
