@@ -27,3 +27,4 @@ dependencies:
   - rasterio
   - contextily
   - geosnap
+  - scipy <= 1.11
